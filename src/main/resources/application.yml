@@ -1,0 +1,12 @@
+spring:
+  application:
+    name:
+    - course-mongodb
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: admin
+      password: admin@12345
+      database: courseDb
+      authentication-database: admin
